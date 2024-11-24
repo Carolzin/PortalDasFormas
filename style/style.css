@@ -1,0 +1,100 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.titulo{
+    width: 100%;
+    height: 100px;
+    font-family: 'Edu AU VIC WA NT Hand', sans-serif;
+    font-size: 64px;
+    color: black;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.titulo img {
+    margin-top: 20px;
+}
+
+.texto-boas-vindas{
+    font-size: 36px;
+    font-weight: 500;
+    font-family: 'Edu AU VIC WA NT Hand', sans-serif;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+.descricao {
+    font-family: 'Edu AU VIC WA NT Hand', sans-serif;
+    font-size: 24px;
+    font-weight: normal;
+    margin-left: 20px;
+}
+
+.texto-escolha{
+    font-family: 'Edu AU VIC WA NT Hand', sans-serif;
+    font-size: 36px;
+    font-weight: 500;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+.container-formas{
+    font-size: 40px;
+    color: #FFFFFF;
+    font-family: 'Edu AU VIC WA NT Hand', sans-serif;
+    width: 261px; 
+    height: 290px;
+    background-color: #970202;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-left: 20px;
+    margin-top: 40px;
+}
+
+.container-principal {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 40px;
+    margin-left: 0px;
+    margin-left: 100px;
+}
+
+.titulo-formas {
+    margin: 0;
+}
+
+img {
+    margin: 0;
+}
+
+footer{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.creditos{
+    font-size: 20px;
+    font-family: 'Edu AU VIC WA NT Hand', sans-serif;
+}
+
+.destaque {
+    background-color: #970202; 
+    color: white; 
+    padding: 0 4px; 
+    border-radius: 3px; 
+}
