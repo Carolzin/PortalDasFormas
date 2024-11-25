@@ -1,0 +1,114 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.titulo {
+    width: 100%;
+    height: 100px;
+   font-family: 'Edu AU VIC WA NT Hand', sans-serif; 
+    font-size: 64px;
+    color: black;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.titulo img {
+    margin-top: 20px;
+    
+}
+
+.imagem-forma {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center; 
+    padding: 20px; 
+}
+
+.nome-forma {
+    font-family: 'Edu AU VIC WA NT Hand', sans-serif; 
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center; 
+    padding: 20px; 
+    font-size: 64px;
+    font-weight: 500;
+    margin: 0;
+}
+
+.descricao-forma {
+    font-family: 'Edu AU VIC WA NT Hand', sans-serif;
+    max-width: 350px;
+    text-align: center; 
+    margin: 0; 
+    font-size: 18px;
+}
+
+.container {
+    display: flex;
+    justify-content: flex-start; 
+    align-items: flex-start; 
+    margin-left: 120px;
+    margin-top: 50px;
+}
+
+.digitar{
+    font-family: 'Edu AU VIC WA NT Hand', sans-serif;
+    font-size: 32px;
+    font-weight: normal;
+
+}
+
+.formulario-forma label{
+    font-family: 'Edu AU VIC WA NT Hand', sans-serif;
+    font-size: 24px;
+    font-weight: normal;
+
+}
+
+.formulario-forma input{
+    width: 221px;
+    height: 40px;
+    background-color: transparent;
+    border: 2px solid #970202;
+    
+}
+
+button{
+    background-color: #970202;
+    color: #ffffff;
+    width: 200px;
+    height: 60px;
+    border: 2px solid #970202;
+    font-family: 'Edu AU VIC WA NT Hand', sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    border-radius: 20px;
+
+}
+
+.formulario-forma{
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center; 
+    padding: 20px; 
+    gap: 30px;
+}
+
+.container-principal{
+    display: flex;
+    gap: 350px;
+    margin-left: 150px
+}
+
+.resultado{
+    font-family: 'Edu AU VIC WA NT Hand', sans-serif;
+    font-size: 30px;
+    font-weight: normal;
+}
