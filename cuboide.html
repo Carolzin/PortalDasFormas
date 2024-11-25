@@ -4,15 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>cuboide</title>
+    <title>Cuboide</title>
     <link rel="stylesheet" href="style/cuboide.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Montserrat:wght@566&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Montserrat:wght@566&display=swap" rel="stylesheet">
 </head>
-
 
 <body>
 
@@ -22,38 +19,31 @@
     </header>
 
     <div class="container-principal">
-
-
         <div class="container">
             <div class="imagem-forma">
-                <img src="img/cuboide-calculo 1.svg">
-
+                <img src="img/cuboide-calculo 1.svg" alt="Cuboide">
                 <p class="nome-forma"> Cuboide </p>
-                <p class="descricao-forma">Um cuboide, também conhecido como paralelepípedo retângulo, é uma figura
-                    tridimensional formada por seis faces retangulares.
-
+                <p class="descricao-forma">Um cuboide, também conhecido como paralelepípedo retângulo, é uma figura tridimensional formada por seis faces retangulares.</p>
             </div>
         </div>
 
         <div class="formulario-forma">
+            <label for="altura">Digite a altura</label>
+            <input type="number" id="altura" name="altura" required step="0.01">
 
-            <label for="raio">Digite a altura</label>
-            <input type="number" id="raio" name="raio" required step="0.01">
+            <label for="largura">Digite a largura</label>
+            <input type="number" id="largura" name="largura" required step="0.01">
 
-             <label for="raio">Digite a largura</label>
-            <input type="number" id="raio" name="raio" required step="0.01">
+            <label for="comprimento">Digite o comprimento</label>
+            <input type="number" id="comprimento" name="comprimento" required step="0.01">
 
-            <label for="raio">Digite o comprimento </label>
-            <input type="number" id="raio" name="raio" required step="0.01">
+            <button type="button" id="calcularBtn">Calcular</button>
 
-            <button type="submit">Calcular</button>
-
-            <p class="resultado"> A área é: </p>
-
+            <p class="resultado" id="resultado"> A área é: </p>
         </div>
-
     </div>
 
+    <script src="javascript/cuboide.js"></script>
 
 </body>
 

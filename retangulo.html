@@ -8,11 +8,8 @@
     <link rel="stylesheet" href="style/ratangulo.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Montserrat:wght@566&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Montserrat:wght@566&display=swap" rel="stylesheet">
 </head>
-
 
 <body>
 
@@ -22,35 +19,25 @@
     </header>
 
     <div class="container-principal">
-
-
         <div class="container">
             <div class="imagem-forma">
-                <img src="img/retangulocalculo.svg">
-
+                <img src="img/retangulocalculo.svg" alt="Retângulo">
                 <p class="nome-forma"> Retângulo </p>
-                <p class="descricao-forma"> O retângulo é uma figura geométrica bidimensional com quatro lados, onde os
-                    lados opostos são iguais e todos os ângulos internos são retos (90 graus). É uma forma amplamente
-                    utilizada na matemática, arquitetura e design.
-                </p>
-
+                <p class="descricao-forma"> O retângulo é uma figura geométrica bidimensional com quatro lados, onde os lados opostos são iguais e todos os ângulos internos são retos (90 graus). É uma forma amplamente utilizada na matemática, arquitetura e design.</p>
             </div>
         </div>
 
         <div class="formulario-forma">
-
-            <label for="raio">Digite o valor da altura</label>
-            <input type="number" id="raio" name="raio" required step="0.01">
-            <label for="raio">Digite o valor da base</label>
-            <input type="number" id="raio" name="raio" required step="0.01">
-            <button type="submit">Calcular</button>
-
-            <p class="resultado"> A área é: </p>
-
+            <label for="altura">Digite o valor da altura</label>
+            <input type="number" id="altura" name="altura" required step="0.01">
+            <label for="base">Digite o valor da base</label>
+            <input type="number" id="base" name="base" required step="0.01">
+            <button type="button" id="calcularBtn">Calcular</button>
+            <p class="resultado" id="resultado"> A área é: </p>
         </div>
-
     </div>
 
+    <script src="javascript/retangulo.js"></script>
 
 </body>
 

@@ -4,15 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Poligono</title>
+    <title>Polígono</title>
     <link rel="stylesheet" href="style/poligono.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Montserrat:wght@566&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Montserrat:wght@566&display=swap" rel="stylesheet">
 </head>
-
 
 <body>
 
@@ -22,36 +19,25 @@
     </header>
 
     <div class="container-principal">
-
-
         <div class="container">
             <div class="imagem-forma">
-                <img src="img/poligono-de-n-lados 1.svg">
-
-                <p class="nome-forma"> Poligono </p>
-                <p class="descricao-forma">Um polígono regular é uma figura geométrica com todos os lados e ângulos
-                    iguais. Quando falamos de um polígono regular com NNN lados, estamos nos referindo a uma forma que
-                    possui NNN lados de comprimento idêntico e NNN ângulos internos que são todos iguais.
-
+                <img src="img/poligono-de-n-lados 1.svg" alt="Polígono">
+                <p class="nome-forma"> Polígono Irregular </p>
+                <p class="descricao-forma">Um polígono regular é uma figura geométrica com todos os lados e ângulos iguais. Quando falamos de um polígono regular com N lados, estamos nos referindo a uma forma que possui N lados de comprimento idêntico e N ângulos internos que são todos iguais.</p>
             </div>
         </div>
 
         <div class="formulario-forma">
-
-            <label for="raio">Digite o tamanho do lado</label>
-            <input type="number" id="raio" name="raio" required step="0.01">
-            <label for="raio">Digite o número de lados </label>
-            <input type="number" id="raio" name="raio" required step="0.01">
-           
-
-            <button type="submit">Calcular</button>
-
-            <p class="resultado"> A área é: </p>
-
+            <label for="lado">Digite o tamanho do lado</label>
+            <input type="number" id="lado" name="lado" required step="0.01">
+            <label for="nLados">Digite o número de lados</label>
+            <input type="number" id="nLados" name="nLados" required step="1">
+            <button type="button" id="calcularBtn">Calcular</button>
+            <p class="resultado" id="resultado"> A área é: </p>
         </div>
-
     </div>
 
+    <script src="javascript/poligono.js"></script>
 
 </body>
 

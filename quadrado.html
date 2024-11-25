@@ -8,11 +8,8 @@
     <link rel="stylesheet" href="style/quadrado.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Montserrat:wght@566&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Montserrat:wght@566&display=swap" rel="stylesheet">
 </head>
-
 
 <body>
 
@@ -22,32 +19,23 @@
     </header>
 
     <div class="container-principal">
-
-
         <div class="container">
             <div class="imagem-forma">
-                <img src="img/quadrado 1.svg">
-
+                <img src="img/quadrado 1.svg" alt="Quadrado">
                 <p class="nome-forma"> Quadrado </p>
-                <p class="descricao-forma">Um quadrado é um polígono regular de quatro lados. Todos os seus lados têm o
-                    mesmo comprimento e seus ângulos internos são iguais a 90 graus.
-
+                <p class="descricao-forma">Um quadrado é um polígono regular de quatro lados. Todos os seus lados têm o mesmo comprimento e seus ângulos internos são iguais a 90 graus.</p>
             </div>
         </div>
 
         <div class="formulario-forma">
-
-            <label for="raio">Digite o valor do lado</label>
-            <input type="number" id="raio" name="raio" required step="0.01">
-
-            <button type="submit">Calcular</button>
-
-            <p class="resultado"> A área é: </p>
-
+            <label for="lado">Digite o valor do lado</label>
+            <input type="number" id="lado" name="lado" required step="0.01">
+            <button type="button" id="calcularBtn">Calcular</button>
+            <p class="resultado" id="resultado"> A área é: </p>
         </div>
-
     </div>
 
+    <script src="javascript/quadrado.js"></script>
 
 </body>
 

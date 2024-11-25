@@ -3,7 +3,7 @@ body {
     padding: 0;
 }
 
-.titulo{
+.titulo {
     width: 100%;
     height: 100px;
     font-family: 'Edu AU VIC WA NT Hand', sans-serif;
@@ -20,7 +20,7 @@ body {
     margin-top: 20px;
 }
 
-.texto-boas-vindas{
+.texto-boas-vindas {
     font-size: 36px;
     font-weight: 500;
     font-family: 'Edu AU VIC WA NT Hand', sans-serif;
@@ -35,7 +35,7 @@ body {
     margin-left: 20px;
 }
 
-.texto-escolha{
+.texto-escolha {
     font-family: 'Edu AU VIC WA NT Hand', sans-serif;
     font-size: 36px;
     font-weight: 500;
@@ -43,11 +43,11 @@ body {
     margin-top: 30px;
 }
 
-.container-formas{
+.container-formas {
     font-size: 40px;
     color: #FFFFFF;
     font-family: 'Edu AU VIC WA NT Hand', sans-serif;
-    width: 261px; 
+    width: 261px;
     height: 290px;
     background-color: #970202;
     border-radius: 20px;
@@ -58,11 +58,16 @@ body {
     text-align: center;
     margin-left: 20px;
     margin-top: 40px;
+    transition: transform 0.3s ease-out;
+}
+
+.container-formas:hover {
+    transform: translateY(-20px);
 }
 
 .container-principal {
     display: grid;
-    grid-template-columns: repeat(4, 1fr); 
+    grid-template-columns: repeat(4, 1fr);
     gap: 40px;
     margin-left: 0px;
     margin-left: 100px;
@@ -76,7 +81,7 @@ img {
     margin: 0;
 }
 
-footer{
+footer {
     width: 100%;
     height: auto;
     display: flex;
@@ -87,25 +92,24 @@ footer{
     margin-top: 50px;
 }
 
-.creditos{
+.creditos {
     font-size: 20px;
     font-family: 'Edu AU VIC WA NT Hand', sans-serif;
 }
 
 .destaque {
-    background-color: #970202; 
-    color: white; 
-    padding: 0 4px; 
-    border-radius: 3px; 
+    background-color: #970202;
+    color: white;
+    padding: 0 4px;
+    border-radius: 3px;
 }
 
 a {
-    text-decoration: none; 
-    color: inherit; 
+    text-decoration: none;
+    color: inherit;
 }
 
 a:hover {
     text-decoration: none;
-    color: #000000; 
+    color: #000000;
 }
-

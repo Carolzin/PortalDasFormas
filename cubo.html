@@ -13,7 +13,6 @@
         rel="stylesheet">
 </head>
 
-
 <body>
 
     <header class="titulo">
@@ -22,34 +21,26 @@
     </header>
 
     <div class="container-principal">
-
-
         <div class="container">
             <div class="imagem-forma">
-                <img src="img/cubo 1.svg">
-
+                <img src="img/cubo 1.svg" alt="Cubo">
                 <p class="nome-forma"> Cubo </p>
                 <p class="descricao-forma"> O cubo é uma forma tridimensional, também conhecida como sólido regular ou
                     hexaedro, composta por seis faces quadradas iguais. Cada face se encontra em ângulos retos, e todas
                     as arestas têm o mesmo comprimento.
                 </p>
-
             </div>
         </div>
 
         <div class="formulario-forma">
-
-            <label for="raio">Digite o valor do lado do cubo</label>
-            <input type="number" id="raio" name="raio" required step="0.01">
-            <button type="submit">Calcular</button>
-
-            <p class="resultado"> A área é: </p>
-
+            <label for="lado">Digite o valor do lado do cubo</label>
+            <input type="number" id="lado" name="lado" required step="0.01">
+            <button type="button" id="calcularBtn">Calcular</button>
+            <p class="resultado" id="resultado"> A área é: </p>
         </div>
-
     </div>
 
-
+    <script src="/javascript/cubo.js"></script>
 </body>
 
 </html>

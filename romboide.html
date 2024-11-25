@@ -8,11 +8,8 @@
     <link rel="stylesheet" href="style/romboide.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Montserrat:wght@566&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Montserrat:wght@566&display=swap" rel="stylesheet">
 </head>
-
 
 <body>
 
@@ -22,37 +19,28 @@
     </header>
 
     <div class="container-principal">
-
-
         <div class="container">
             <div class="imagem-forma">
-                <img src="img/romboedro-calculo 1.svg">
-
+                <img src="img/romboedro-calculo 1.svg" alt="Romboide">
                 <p class="nome-forma"> Romboide </p>
-                <p class="descricao-forma">O romboide é um quadrilátero com todos os lados de igual comprimento, mas com
-                    ângulos que não são necessariamente retos. É um caso especial de paralelogramo, onde as diagonais se
-                    cruzam em ângulo reto.
-
+                <p class="descricao-forma">O romboide é um quadrilátero com todos os lados de igual comprimento, mas com ângulos que não são necessariamente retos. É um caso especial de paralelogramo, onde as diagonais se cruzam em ângulo reto.</p>
             </div>
         </div>
 
         <div class="formulario-forma">
+            <label for="base">Digite a maior distância entre as pontas (base)</label>
+            <input type="number" id="base" name="base" required step="0.01">
 
-            <label for="raio">Digite a maior distância entre as pontas</label>
-            <input type="number" id="raio" name="raio" required step="0.01">
+            <label for="altura">Digite a menor distância entre as pontas (altura)</label>
+            <input type="number" id="altura" name="altura" required step="0.01">
 
-            <label for="raio">Digite a menor distância entre as pontas</label>
-            <input type="number" id="raio" name="raio" required step="0.01">
+            <button type="button" id="calcularBtn">Calcular</button>
 
-
-            <button type="submit">Calcular</button>
-
-            <p class="resultado"> A área é: </p>
-
+            <p class="resultado" id="resultado"> A área é: </p>
         </div>
-
     </div>
 
+    <script src="javascript/romboide.js"></script>
 
 </body>
 
